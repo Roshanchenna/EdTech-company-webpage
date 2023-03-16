@@ -163,7 +163,7 @@ a:hover {
 .courses {
   padding: 0 10px 30px 10px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   grid-gap: 16px 16px;
 }
 
@@ -291,7 +291,8 @@ div.polaroid3 {
 .polaroid3 img {
   justify-content: center;
   border-radius: 20px;
-  height: 240px;
+  height: 198px;
+  object-fit: cover;
 }
 
 .h3 {
@@ -300,12 +301,12 @@ div.polaroid3 {
 }
 
 .cr1 {
-  margin-left: 67px;
+  margin-left: 63px;
 
 }
 
 .cr2 {
-  margin-left: 64px;
+  margin-left: 49px;
 }
 
 .cr3 {
