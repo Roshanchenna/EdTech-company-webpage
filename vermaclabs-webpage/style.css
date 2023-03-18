@@ -291,7 +291,7 @@ div.polaroid3 {
 .polaroid3 img {
   justify-content: center;
   border-radius: 20px;
-  height: 198px;
+  height: 198 px;
   object-fit: cover;
 }
 
