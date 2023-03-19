@@ -163,7 +163,7 @@ a:hover {
 .courses {
   padding: 0 10px 30px 10px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
   grid-gap: 16px 16px;
 }
 
@@ -172,14 +172,17 @@ a:hover {
   position: relative;
   grid-template-rows: auto 1fr;
   border-radius: 15px;
-  grid-gap: 25px 40px;
+  grid-gap: 30px 45px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
   justify-content: center;
   text-align: center;
+  transform: scale(1);
+  transition-duration: 0.25s;
 }
 
 .course:hover {
-  box-shadow: 0 60px 120px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 60px 120px rgba(0, 0, 0, 1);
+  transform: scale(1.06);
 }
 
 .course img {
@@ -221,7 +224,7 @@ a:hover {
 }
 
 .coursebtn {
-  margin-left: 42.2vw;
+  margin-left: 41.2vw;
   border: 1px solid whitesmoke;
   color: white;
   background-color: rgb(0, 110, 255);
@@ -230,6 +233,8 @@ a:hover {
   width: 180px;
   border-radius: 10px;
   position: relative;
+  transform: scale(1);
+  transition-duration: 0.3s;
 }
 
 .coursebtn:hover {
@@ -237,6 +242,7 @@ a:hover {
   background-color: black;
   border: 1px solid white;
   cursor: pointer;
+  transform: scale(1.2);
 }
 
 /* Vision */
@@ -291,7 +297,7 @@ div.polaroid3 {
 .polaroid3 img {
   justify-content: center;
   border-radius: 20px;
-  height: 240px;
+  height: 193px;
 }
 
 .h3 {
@@ -300,12 +306,12 @@ div.polaroid3 {
 }
 
 .cr1 {
-  margin-left: 67px;
+  margin-left:47px;
 
 }
 
 .cr2 {
-  margin-left: 64px;
+  margin-left:47px;
 }
 
 .cr3 {
